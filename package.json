@@ -1,0 +1,24 @@
+{
+  "name": "npm_repository-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "bash setup-ssh.sh",
+    "postinstall": "bash cleanup-ssh.sh"
+  },
+  "dependencies": {
+    "body-parser": "git+ssh://git@github.com:bilalfastian/body-parser.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalfastian/npm_repositories.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilalfastian/npm_repositories/issues"
+  },
+  "homepage": "https://github.com/bilalfastian/npm_repositories#readme"
+}
