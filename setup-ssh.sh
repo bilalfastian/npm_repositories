@@ -24,4 +24,5 @@ if [ "$GIT_SSH_KEY" != "" ]; then
           " UserKnownHostsFile=/dev/null\n"\
           " StrictHostKeyChecking no"\
           > ~/.ssh/config
+
 fi
